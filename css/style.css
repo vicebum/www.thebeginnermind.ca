@@ -66,6 +66,11 @@ a{
   text-decoration:none;
 }
 
+.title{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
 h1{
   margin-top: 100px;
   margin-bottom: 20px;
@@ -152,7 +157,6 @@ section.end{
     max-height: 200px;
 }
 
-
 .leaves{
   margin-top: 20px;
   margin-bottom: 30px;
@@ -170,7 +174,6 @@ section.intro{
   display: flex;
   justify-content: flex-start;
 }
-
 
 .h2{
   padding-bottom: 30px;
@@ -362,6 +365,7 @@ section.intro{
   margin-top: 100px;
   height: 100vh;
   background: opacity 50% #50EDC7;
+  color: #B5EBDE;
   border: 20px solid 50% #50EDC7;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -378,32 +382,31 @@ article {
 }
 
 .name{
-  color: # ;
+  color: #B5EBDE;
   font-size: 1.2vmax;
 }
 .a1 {
+  color: #B5EBDE;
   opacity: 80%;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   transition: transform .2s;
 }
 .a1:hover{
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5)
+  transform: scale(1.5);
 }
 .a2{
+  color: #B5EBDE;
   opacity: 80%;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   transition: transform .2s;
 }
 .a2:hover{
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5)
+  transform: scale(1.5);
 }
 .a3{
+  color: #B5EBDE;
   background: transparent;
   padding-left: 80px;
   grid-column: 3 / 7;
@@ -411,117 +414,130 @@ article {
   transition: transform .2s;
 }
 .a3:hover {
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
   transform: scale(1.5) translateX(-20%) translateZ(100);
 }
 .a4 {
+  color: #B5EBDE;
   opacity: 80%;
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   transition: transform .2s;
 }
 .a4:hover{
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5)
+  transform: scale(1.5);
 }
 .a5{
+  color: #B5EBDE;
   opacity: 80%;
   grid-column: 2 /3 ;
   grid-row: 2 / 3;
   transition: transform .2s;
 }
 .a5:hover{
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5)
+  transform: scale(1.5);
 }
 .a6{
+  color: #B5EBDE;
   opacity: 80%;
   grid-column: 1 / 2;
   grid-row: 3 / 4;
   transition: transform .2s;
 }
 .a6:hover{
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5)
+  transform: scale(1.5);
 }
 .a7 {
+  color: #B5EBDE;
   opacity: 80%;
   grid-column: 2 / 3;
   grid-row: 3 / 4;
   transition: transform .2s;
 }
 .a7:hover{
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5)
+  transform: scale(1.5);
 }
 .a8{
+  color: #B5EBDE;
   opacity: 80%;
   grid-column: 1 / 2;
   grid-row: 4 / 5;
   transition: transform .2s;
 }
 .a8:hover{
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5)
+  transform: scale(1.5);
 }
 .a9{
+  color: #B5EBDE;
   opacity: 80%;
   grid-column: 2 / 3;
   grid-row: 4 / 5;
   transition: transform .2s;
 }
 .a9:hover{
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5)
+  transform: scale(1.5);
 }
 .a10 {
+  color: #B5EBDE;
   opacity: 80%;
   grid-column: 1 / 2;
   grid-row: 5 / 6;
   transition: transform .2s;
 }
 .a10:hover{
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5)
+  transform: scale(1.5);
 }
 .a11{
+  color: #B5EBDE;
   opacity: 80%;
   grid-column: 2 / 3;
   grid-row: 5 / 6;
   transition: transform .2s;
 }
 .a11:hover{
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5)
+  transform: scale(1.5);
 }
 .a12{
+  color: #B5EBDE;
   opacity: 80%;
   grid-column: 1 / 2;
   grid-row: 6 / 7;
   transition: transform .2s;
 }
 .a12:hover{
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5)
+  transform: scale(1.5);
 }
 .a13{
+  color: #B5EBDE;
   opacity: 80%;
   grid-column: 2 / 3;
   grid-row: 6 / 7;
   transition: transform .2s;
 }
 .a13:hover{
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5)
+  transform: scale(1.5);
+}
+
+
+/* === TABLET LAYOUT INHERITS FROM DESKTOP 600PX 980PX === */
+@media screen and (max-width: 960px) {
+  body {
+    font-size-adjust: auto;
+  }
+
+  img {
+    max-width:auto;
+    max-height:auto;
+  }
+}
+
+/* === MOBILE LAYOUT INHERITS FROM DESKTOP AND THE TABLET 600PX === */
+@media screen and (max-width: 500px) {
+  body {
+    font-size-adjust: auto;
+  }
+
+  img {
+    max-width:auto;
+    max-height:auto;
+  }
 }
